@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 
 import styles from "./Launch.module.css";
+import Image from "next/image";
 
 const Launch = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -41,10 +42,12 @@ const Launch = () => {
         </div>
       </div>
       <div className={styles.right}>
-        <img
+        <Image
           src="/launch.svg"
           alt="Surprised Happy Girl with peach colored hooodie"
           className={styles.launchimage}
+          width={759}
+          height={704}
         />
         <div className={styles.imageContentsDiv}>
           <div className={styles.congrats}>

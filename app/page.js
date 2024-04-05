@@ -9,9 +9,16 @@ export default function Page() {
   return (
     <div>
       <Header />
-      <Launch />
-      <Tutors />
-      <Reviews />
+
+      <div className="section">
+        <Launch />
+      </div>
+      <div className="section">
+        <Tutors />
+      </div>
+      <div className="section">
+        <Reviews />
+      </div>
     </div>
   );
 }

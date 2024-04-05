@@ -108,3 +108,18 @@ a {
     color-scheme: dark;
   }
 }
+/* globals.css */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  scroll-snap-type: y mandatory; /* Enables snap scrolling vertically */
+  overflow-y: scroll; /* Allows vertical scrolling */
+}
+
+/* Ensures each section fills the viewport and snaps into place */
+.section {
+  height: 100vh;
+  scroll-snap-align: start;
+  width: 100%; /* Ensures each section stretches full width */
+}
