@@ -1,0 +1,56 @@
+.reviewCard {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.profilePicture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.customerInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.customerName {
+  font-weight: bold;
+  margin: 0;
+}
+
+.customerEmail {
+  color: #888;
+  font-size: 14px;
+}
+
+.reviewText {
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.decorationCircle {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ff6b6b;
+  opacity: 0.2;
+}
+
+.decorationCircle:first-child {
+  top: -15px;
+  left: -15px;
+}
+
+.decorationCircle:last-child {
+  bottom: -15px;
+  right: -15px;
+}
