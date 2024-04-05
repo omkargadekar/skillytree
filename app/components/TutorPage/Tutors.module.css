@@ -1,19 +1,21 @@
-/* components/TopTutors.module.css */
-
 .container {
-  padding: 50px;
+  padding: 0 50px 0 50px;
   height: 100vh;
-  /* background-color: white; */
 }
 
 .heading {
   text-align: center;
-  /* Other styling for the heading */
+  margin-top: 7rem;
 }
 
 .cardsContainer {
   margin-top: 5rem;
   display: flex;
-  justify-content: space-between;
-  /* Other styling for the cards container */
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.fogg {
+  position: absolute;
 }

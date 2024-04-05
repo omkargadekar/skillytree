@@ -12,6 +12,12 @@ const TopTutors = () => {
         <Card />
         <Card />
       </div>
+      <img className={styles.fogg} src="/fogg.png" alt="background fog" />
+      <img
+        className={styles.tutorfogg}
+        src="/fogg.png"
+        alt="background fog top right"
+      />
     </div>
   );
 };
