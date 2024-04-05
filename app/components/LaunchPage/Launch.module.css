@@ -246,3 +246,8 @@
 .cookingClassSpan {
   color: #fc4d6d;
 }
+.cookingClassFog {
+  position: absolute;
+  bottom: -3rem;
+  right: -10rem;
+}

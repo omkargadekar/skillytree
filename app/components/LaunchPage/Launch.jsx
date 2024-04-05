@@ -73,7 +73,7 @@ const Launch = () => {
             <h3 className={styles.studentsDivHeading}>10K+ STUDENTS</h3>
             <img
               className={styles.studentsDivImg}
-              src="/User.svg"
+              src="/user.svg"
               alt="Single User Icon"
             />
           </div>
@@ -89,6 +89,11 @@ const Launch = () => {
               </h5>
               <button className={styles.cookingClassBtn}>JOIN NOW</button>
             </div>
+            <img
+              src="/launchfog.svg"
+              alt="background fog effect in the bottom-right corner"
+              className={styles.cookingClassFog}
+            />
           </div>
         </div>
       </div>
