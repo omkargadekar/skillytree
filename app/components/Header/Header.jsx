@@ -17,7 +17,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.logoContainer}>
         <Image
-          src="/skilltree_logo.svg"
+          src="/skilltree-logo.png"
           alt="Skilltree Logo"
           width={218}
           height={50}
@@ -28,7 +28,7 @@ const Header = () => {
           <li className={styles.navItem}>
             <img
               className={styles.searchicon}
-              src="/searchIcon.svg"
+              src="/searchIcon.png"
               alt="search"
             />
           </li>
@@ -69,7 +69,7 @@ const Header = () => {
       </nav>
       <div className={styles.userActions}>
         <button className={styles.loginButton}>
-          <img src="/log-in.svg" alt="" /> Log In
+          <img src="/log-in.png" alt="" /> Log In
         </button>
         <button className={styles.joinButton}>Join as Tutor</button>
       </div>

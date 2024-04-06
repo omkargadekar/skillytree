@@ -27,7 +27,7 @@ const Launch = () => {
           </p>
         </div>
         <button className={styles.button}>
-          Book a Trial <img src="/arrow-right.svg" alt="" />
+          Book a Trial <img src="/arrow-right.png" alt="" />
         </button>
         <div className={styles.launchdots}>
           {[0, 1, 2].map((_, index) => (
@@ -43,17 +43,17 @@ const Launch = () => {
       </div>
       <div className={styles.right}>
         <Image
-          src="/launch.svg"
+          src="/launch.png"
           alt="Surprised Happy Girl with peach colored hooodie"
           className={styles.launchimage}
-          width={759}
+          width={800}
           height={704}
         />
         <div className={styles.imageContentsDiv}>
           <div className={styles.congrats}>
             <img
               className={styles.congratsImg}
-              src="/mail.svg"
+              src="/mail.png"
               alt="Mail Icon"
             />
             <div className={styles.congratsDiv}>
@@ -64,7 +64,7 @@ const Launch = () => {
           <div className={styles.tutorsDiv}>
             <img
               className={styles.tutorsDivImg}
-              src="/users.svg"
+              src="/users.png"
               alt="Multiple Users Icon"
             />
             <div>
@@ -76,12 +76,12 @@ const Launch = () => {
             <h3 className={styles.studentsDivHeading}>10K+ STUDENTS</h3>
             <img
               className={styles.studentsDivImg}
-              src="/user.svg"
+              src="/user.png"
               alt="Single User Icon"
             />
           </div>
           <div className={styles.cookingClass}>
-            <img className={styles.cookingClassImg} src="/Ellipse.svg" alt="" />
+            <img className={styles.cookingClassImg} src="/Ellipse.png" alt="" />
             <div>
               <h3 className={styles.cookingClassH3}>
                 COOKING <span className={styles.cookingClassSpan}>CLASS</span>
@@ -93,7 +93,7 @@ const Launch = () => {
               <button className={styles.cookingClassBtn}>JOIN NOW</button>
             </div>
             <img
-              src="/launchfog.svg"
+              src="/launchfog.png"
               alt="background fog effect in the bottom-right corner"
               className={styles.cookingClassFog}
             />

@@ -56,6 +56,7 @@
   font-size: 22px;
   font-weight: 800;
   line-height: 26.82px;
+  color: white;
 
   border-radius: 0 60px 0 60px;
   border: none;
@@ -228,11 +229,13 @@
   font-family: Poppins;
   font-size: 14px;
   font-weight: 700;
+  color: white;
 }
 .cookingClassH5 {
   font-family: Poppins;
   font-size: 9px;
   font-weight: 500;
+  color: white;
 }
 .cookingClassBtn {
   width: 74px;
