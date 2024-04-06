@@ -63,7 +63,7 @@
   text-align: center;
   color: #5e5252;
   position: relative;
-  top: 10rem;
+  top: 7rem;
 }
 .headspan {
   color: #fc4d6d;
@@ -71,9 +71,9 @@
 .reviewdots {
   display: flex;
   position: absolute;
-  bottom: 1rem;
+  bottom: 3.5rem;
   /* margin-top: 1rem; */
-  left: 50%;
+  left: 48%;
 }
 
 .dots {
