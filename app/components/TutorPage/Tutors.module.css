@@ -1,6 +1,7 @@
 .container {
   padding: 0 50px 0 50px;
   height: 100vh;
+  position: relative;
 }
 
 .heading {
@@ -18,4 +19,13 @@
 
 .fogg {
   position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: -1;
+}
+.tutorfogg {
+  position: absolute;
+  top: 0rem;
+  right: -1rem;
+  z-index: -1;
 }
