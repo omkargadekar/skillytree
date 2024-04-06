@@ -185,12 +185,12 @@
   height: 41.32px;
   top: 652.82px;
   left: 195.51px;
-  gap: 0px;
+
   border-radius: 40px;
-  opacity: 0px;
-  border: 1px solid #fc4d6d;
+
+  border: 1px solid #fc4d6d !important;
   background-color: white;
-  color: #fc4d6d;
+  color: #fc4d6d !important;
   margin: auto;
   margin-top: 1rem;
   font-family: Poppins;
