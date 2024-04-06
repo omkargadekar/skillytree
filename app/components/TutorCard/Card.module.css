@@ -201,8 +201,8 @@
 }
 
 .bookButton:hover {
-  background-color: #c84a04;
-  color: white;
+  background-color: #fc4d6d !important;
+  color: white !important;
 }
 .circle {
   width: 27.33px;
